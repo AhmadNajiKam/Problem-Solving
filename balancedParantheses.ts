@@ -1,3 +1,4 @@
+// Implement my own stack as a utility to be used in the future maybe
 class Stack<T> {
   private items: T[] = [];
 
