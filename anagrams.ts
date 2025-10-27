@@ -1,7 +1,6 @@
 
 function uniqueAnagrams(str: string): string[] {
   const results: string[] = [];
-  const seen = new Set<string>();
 
   function permute(prefix: string, remaining: string): void {
     if (remaining.length === 0) {
